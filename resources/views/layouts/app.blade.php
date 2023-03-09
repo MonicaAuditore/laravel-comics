@@ -5,9 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   @vite('resources/js/app.js')
-  <title>Document</title>
+  <title>@yield('page_title')</title>
 </head>
+
+
 <body>
-<img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+@include('partials.header')
+
+<main>
+  @yield('content')
+</main>
+
+@include('partials.footer')
 </body>
 </html>
