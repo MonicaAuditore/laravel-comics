@@ -29,34 +29,34 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+          <li class="nav-item fw-bold">
             <a class="nav-link active" aria-current="page" href="#">CHARACTERS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item fw-bold">
             <a class="nav-link" href="#">COMICS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item fw-bold">
             <a class="nav-link" href="#">MOVIES</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item fw-bold">
             <a class="nav-link" href="#">TV</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item fw-bold">
             <a class="nav-link" href="#">GAMES</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item fw-bold">
             <a class="nav-link" href="#">COLLECTIBLES</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item fw-bold">
             <a class="nav-link" href="#">VIDEOS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item fw-bold">
             <a class="nav-link" href="#">FANS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item fw-bold">
             <a class="nav-link" href="#">NEWS</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item fw-bold dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               SHOP
             </a>
