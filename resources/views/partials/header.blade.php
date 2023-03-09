@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row ">
       <div class="col d-flex justify-content-end align-items-center">
-        <p class="pt-3 me-3">DC POWER VISA</p>
+        <p class="pt-3 me-5">DC POWER VISA</p>
         <!-- BTN -->
         <div class="dropdown ">
         <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
