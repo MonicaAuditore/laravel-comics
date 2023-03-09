@@ -77,7 +77,7 @@
 </div>  
 <!-- immagine -->
 <div class="img-jumbotron">
-<img src="{{ Vite::asset('resources/img/jumbotron.png') }}" alt="">
+
 </div>
 </header>
 
