@@ -1,4 +1,11 @@
-<footer class="pt-5 pb-5">
+<footer>
+<!-- footer up -->
+<div class="footerUp">
+
+</div>
+
+<!-- footer down -->
+<div class="footerDown pt-4 pb-4">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -18,4 +25,5 @@
       </div>
     </div>
   </div>
+</div>
 </footer>
