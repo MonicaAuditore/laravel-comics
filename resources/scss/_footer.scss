@@ -3,7 +3,6 @@
 }
 
 .footerUp {
-    height: 500px;
     width: 100%;
     background-image: url("../img/footer-bg.jpg");
     background-size: cover;
@@ -11,4 +10,14 @@
 
 .text-grey {
     color: #858180;
+}
+
+.footerFirst {
+    width: 100%;
+    background-color: #0d6efd;
+}
+
+.icon-text {
+    font-size: 12px;
+    margin: 0;
 }

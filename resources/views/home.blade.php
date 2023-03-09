@@ -17,7 +17,7 @@
   </div>
 
 
-  <div class="button-card text-center pt-3 pb-3">
+  <div class="button-card text-center pt-3 pb-4">
     <button type="button" class="btn btn-primary btn-lg">LOAD MORE</button>
 
   </div>
