@@ -11,7 +11,7 @@
           <p class="text-white icon-text">DC MERCHANDAISE</p>
         </div>
         <div class="col d-flex justify-content-start align-items-center">
-          <a  class="navbar-brand me-3" href="{{ route('home') }}">dc-logo-bg.png</a>
+          <a  class="navbar-brand me-3" href="{{ route('home') }}"><img style="width: 50px" src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt=""></a>
           <p class="text-white icon-text">SUBSCRIPTION</p>
         </div>
         <div class="col d-flex justify-content-start align-items-center">
