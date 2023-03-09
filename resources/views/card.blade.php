@@ -4,12 +4,11 @@
 
 @section('content')
 
-<div class="container pt-5 pb-5">
-    <div class="row g-4">
+  <div class="container">
+    <div class="row">
       @foreach($comics as $singleCard)
-      <div class="col-2">
-        <img src="{{$singleCard['thumb']}}">
-        <h5>{{$singleCard['series']}}</h5>
+      <div class="col-4">
+        {{$singleCard['title']}}
       </div>
       @endforeach
     </div>
