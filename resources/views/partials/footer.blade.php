@@ -29,31 +29,30 @@
 <div class="footerUp">
   <div class="container">
     <div class="row d-flex">
-      <div class="col-6 pt-5">
+      <div class="col pt-5 pb-5">
         <div class="row text-white">
-          <div class="col">
-            <div class="row d-flex flex-column">
-              <div class="col">
-            <h6>DC COMICS</h6>
-            <ul class="list-inline text-grey">
-              <li>Characters</li>
-              <li>Comics</li>
-              <li>Movies</li>
-              <li>TV</li>
-              <li>Games</li>
-              <li>Videos</li>
-              <li>News</li>
-            </ul>
+          <div class="col-4">
+<div class="row flex-column">
+<div class="col"><h6>DC COMICS</h6>
+  <ul class="list-inline text-grey">
+    <li>Characters</li>
+    <li>Comics</li>
+    <li>Movies</li>
+    <li>TV</li>
+    <li>Games</li>
+    <li>Videos</li>
+    <li>News</li>
+  </ul></div>
+<div class="col"><h6>SHOP</h6>
+  <ul class="list-inline text-grey">
+    <li>Shop DC</li>
+    <li>Shop DC Collectibles</li>
+  </ul></div>
+</div>
+            
           </div>
-            <div class="col"><h6>SHOP</h6>
-              <ul class="list-inline text-grey">
-                <li>Shop DC</li>
-                <li>Shop DC Collectibles</li>
-              </ul></div>
-          </div>
-          </div>
-          
-          <div class="col"><h6>DC</h6>
+          <div class="col-4">
+            <h6>DC</h6>
             <ul class="list-inline text-grey">
               <li>Terms Of Use</li>
               <li>Privacy policy (New)</li>
@@ -66,27 +65,37 @@
               <li>Ratings</li>
               <li>Shop Help</li>
               <li>Contact Us</li>
-            </ul></div>
-          <div class="col"><h6>SITES</h6>
+            </ul>
+          </div>
+          <div class="col-4">
+
+            <h6>SITES</h6>
             <ul class="list-inline text-grey">
               <li>DC</li>
               <li>MAD Magazine</li>
               <li>DC Kids</li>
               <li>DC Universe</li>
               <li>DC Power Visa</li>
-            </ul></div>
+            </ul>
+          </div>
+          
+          <div class="col-12">
+            <div class="text text-white pt-3">
+              <p class="text-grey">All Site Content TM and c 2020 DC Entertainment, unless otherwise <a class="text-decoration-none" href="#">noted here</a>. All right reserved.<br>
+              <a class="text-decoration-none" href="#">Cookies Settings</a></p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="text text-white pt-3 pb-5"><p class="text-grey">All Site Content TM and c 2020 DC Entertainment, unless otherwise <a class="text-decoration-none" href="#">noted here</a>. All right reserved.<br>
-        <a class="text-decoration-none" href="#">Cookies Settings</a></p>
+      <div class="col">
+          <img style="" src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
       </div>
-      
     </div>
-    <div class="col imgBg"><img style="width: 50px" src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt=""></div>
   </div>
 </div>
-
+         
+   
+    
 <!-- footer down -->
 <div class="footerDown pt-4 pb-4">
   <div class="container">
