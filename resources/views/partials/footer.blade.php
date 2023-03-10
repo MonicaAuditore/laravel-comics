@@ -2,23 +2,23 @@
   <div class="footerFirst pt-5 pb-5">
     <div class="container">
       <div class="row">
-        <div class="col d-flex justify-content-start align-items-center">
-          <a  class="navbar-brand me-3" href="{{ route('home') }}"><img style="width: 50px" src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt=""></a>
+        <div style="cursor: pointer;" class="col d-flex justify-content-start align-items-center">
+          <a class="navbar-brand me-3" href="{{ route('home') }}"><img style="width: 50px" src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt=""></a>
           <p class="text-white icon-text">DIGITAL COMICS</p>
         </div>
-        <div class="col d-flex justify-content-start align-items-center">
+        <div style="cursor: pointer;" class="col d-flex justify-content-start align-items-center">
           <a  class="navbar-brand me-3" href="{{ route('home') }}"><img style="width: 50px" src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt=""></a>
           <p class="text-white icon-text">DC MERCHANDAISE</p>
         </div>
-        <div class="col d-flex justify-content-start align-items-center">
+        <div style="cursor: pointer;" class="col d-flex justify-content-start align-items-center">
           <a  class="navbar-brand me-3" href="{{ route('home') }}"><img style="width: 50px" src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt=""></a>
           <p class="text-white icon-text">SUBSCRIPTION</p>
         </div>
-        <div class="col d-flex justify-content-start align-items-center">
+        <div style="cursor: pointer;" class="col d-flex justify-content-start align-items-center">
           <a  class="navbar-brand me-3" href="{{ route('home') }}"><img style="width: 36px" src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt=""></a>
           <p class="text-white icon-text">COMIC SHOP LOCATOR</p>
         </div>
-        <div class="col d-flex justify-content-start align-items-center">
+        <div style="cursor: pointer;" class="col d-flex justify-content-start align-items-center">
           <a  class="navbar-brand me-3" href="{{ route('home') }}"><img style="width: 50px" src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt=""></a>
           <p class="text-white icon-text">DC POWER VISA</p>
         </div>
@@ -32,25 +32,29 @@
       <div class="col pt-5 pb-5">
         <div class="row text-white">
           <div class="col-4">
-<div class="row flex-column">
-<div class="col"><h6>DC COMICS</h6>
-  <ul class="list-inline text-grey">
-    <li>Characters</li>
-    <li>Comics</li>
-    <li>Movies</li>
-    <li>TV</li>
-    <li>Games</li>
-    <li>Videos</li>
-    <li>News</li>
-  </ul></div>
-<div class="col"><h6>SHOP</h6>
-  <ul class="list-inline text-grey">
-    <li>Shop DC</li>
-    <li>Shop DC Collectibles</li>
-  </ul></div>
-</div>
-            
+            <div class="row flex-column">
+              <div class="col">
+                <h6>DC COMICS</h6>
+                <ul class="list-inline text-grey">
+                  <li>Characters</li>
+                  <li>Comics</li>
+                  <li>Movies</li>
+                  <li>TV</li>
+                  <li>Games</li>
+                  <li>Videos</li>
+                  <li>News</li>
+                </ul>
+              </div>
+              <div class="col">
+                <h6>SHOP</h6>
+                <ul class="list-inline text-grey">
+                  <li>Shop DC</li>
+                  <li>Shop DC Collectibles</li>
+                </ul>
+              </div>
+            </div> 
           </div>
+
           <div class="col-4">
             <h6>DC</h6>
             <ul class="list-inline text-grey">
@@ -67,8 +71,8 @@
               <li>Contact Us</li>
             </ul>
           </div>
-          <div class="col-4">
 
+          <div class="col-4">
             <h6>SITES</h6>
             <ul class="list-inline text-grey">
               <li>DC</li>
@@ -85,17 +89,18 @@
               <a class="text-decoration-none" href="#">Cookies Settings</a></p>
             </div>
           </div>
+
         </div>
+
       </div>
       <div class="col">
           <img style="" src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
       </div>
+
     </div>
   </div>
 </div>
          
-   
-    
 <!-- footer down -->
 <div class="footerDown pt-4 pb-4">
   <div class="container">
@@ -104,7 +109,6 @@
       <button type="button" class="btn btn-outline-primary text-light">SINGN-UP NOW!</button>
       </div>
       <div class="col">
-        
         <ul class="list-unstyled d-flex justify-content-end align-items-center text-light">
           <li class="me-3 text-primary">FOLLOW US</li>
           <li class=""><a  class="navbar-brand me-3" href="{{ route('home') }}"><img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt=""></a></li>
@@ -113,7 +117,6 @@
           <li class=""><a  class="navbar-brand me-3" href="{{ route('home') }}"><img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt=""></a></li></li>
           <li class=""><a  class="navbar-brand me-3" href="{{ route('home') }}"><img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt=""></a></li></li>
         </ul>
-
       </div>
     </div>
   </div>
