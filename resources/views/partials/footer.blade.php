@@ -85,7 +85,7 @@
           
           <div class="col-12">
             <div class="text text-white pt-3">
-              <p class="text-grey">All Site Content TM and c 2020 DC Entertainment, unless otherwise <a class="text-decoration-none" href="#">noted here</a>. All right reserved.<br>
+              <p class="text-grey">All Site Content TM and c 2020 DC Entertainment, unless otherwise <a class="text-decoration-none" href="#">noted here</a>. <br>All right reserved.
               <a class="text-decoration-none" href="#">Cookies Settings</a></p>
             </div>
           </div>
@@ -110,7 +110,7 @@
       </div>
       <div class="col">
         <ul class="list-unstyled d-flex justify-content-end align-items-center text-light">
-          <li class="me-3 text-primary">FOLLOW US</li>
+          <li class="me-3 text-primary fw-bold">FOLLOW US</li>
           <li class=""><a  class="navbar-brand me-3" href="{{ route('home') }}"><img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt=""></a></li>
           <li class=""><a  class="navbar-brand me-3" href="{{ route('home') }}"><img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt=""></a></li></li>
           <li class=""><a  class="navbar-brand me-3" href="{{ route('home') }}"><img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt=""></a></li></li>
