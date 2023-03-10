@@ -9,8 +9,8 @@
     <div class="row g-4">
       @foreach($comics as $singleCard)
       <div class="col-2 ">
-        <img src="{{$singleCard['thumb']}}">
-        <h6 class="text-white testoCard">{{$singleCard['series']}}</h6>
+        <img style="width: 100%;" src="{{$singleCard['thumb']}}">
+        <h6 class="text-white testoCard pt-3">{{$singleCard['series']}}</h6>
       </div>
       @endforeach
     </div>
